@@ -16,7 +16,6 @@ body {
 	min-height: 100vh;
 	max-width: 960px;
 	margin: auto;
-
 	font-family: 'Quicksand', sans-serif;
 	background-color: var(--background);
 }
@@ -26,7 +25,7 @@ header {
 	justify-content: center;
 	align-items: center;
 	font-size: 3rem;
-	font-weight: 600;
+	font-weight: 700;
 	margin-top: 20px;
 }
 
@@ -35,6 +34,7 @@ main {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	flex-direction: column;
 }
 
 footer {
@@ -47,7 +47,7 @@ footer {
 }
 
 .gamebox {
-	box-shadow: 2px 2px 50px grey;
+	box-shadow: 2px 2px 30px grey;
 	border-radius: 10px;
 	height: 500px;
 	width: 500px;
@@ -75,4 +75,24 @@ footer {
 .playbtn:hover {
 	filter: brightness(90%);
 	transition: 0.2s ease-in-out;
+}
+
+.restart{
+	cursor: pointer;
+	margin: 20px;
+	padding: 10px;
+	border-color: var(--blue);
+	border-radius: 10px;
+	font-weight: 500;
+}
+
+.restart:hover {
+	filter: brightness(90%);
+	transition: 0.2s ease-in-out;
+}
+
+.gridTop {
+	margin:10px;
+	font-size: 1.5rem;
+	font-weight: 600;
 }
