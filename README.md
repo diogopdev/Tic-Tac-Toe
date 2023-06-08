@@ -1,3 +1,3 @@
 # Tic Tac Toe
  
-<a href="https://github.com/diogopdev/Tic-Tac-Toe">Live Preview</a>
+<a href="https://diogopdev.github.io/Tic-Tac-Toe/">Live Preview</a>
