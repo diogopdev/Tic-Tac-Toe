@@ -3,6 +3,7 @@
 	--blue: #155e75;
 	--text-color: #083344;
 	--background:#a5f3fc;
+	--background-won:#09909f;
 }
 
 *{
@@ -70,6 +71,11 @@ footer {
 	border-radius: 10px;
 	font-size: 5rem;
 	font-weight: 700;
+}
+
+.playbtn,
+.playbtn:disabled {
+	background-color: white;
 }
 
 .playbtn:hover {
